@@ -1,0 +1,350 @@
+<!DOCTYPE HTML>
+
+<!--estructura basica del html-->
+<html lang="es">
+    <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+         <title>UTM</title>
+           <link href="css/estilos.css" rel="stylesheet">
+           <link href="css/menu.css" rel="stylesheet">
+           <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>   
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            
+        
+     </head>
+    
+<!--comienza en el body, donde se visualiza la pagina-->    
+    <body>
+        <header>
+         <div class="topnav">
+        
+           <a href="http://webmail.utmezquitaldgo.edu.mx/"><img src="img/unnamed.png" width="40px" height="40px"></a>
+           <a href="https://www.facebook.com/Utmezquital"><img src="img/58e919b0eb97430e819064ff.png" width="40px" height="40px"></a>
+           <div class="search-container">
+             <form action="/action_page.php">
+              <input type="text" placeholder="Busqueda.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+           </div>
+         </div> 
+        </header>
+        
+        <!--BANNER-->
+        <div class="container">
+        
+	          <img  class="img-fluid" src="img/banner5.jpg" alt="Responsive image"/>
+	            
+       
+            </div>
+        
+        
+        
+        <!--barra de menu-->
+        
+        <div class="container">
+       
+            
+            
+           <nav class="menu" id="myTopnav">
+             <a class="activo" style="color: white;">Inicio</a>
+             <div class="submenu">
+             <button class="dropbtn">Oferta Educativa<i class="fa fa-caret-down"></i></button>
+                   <div class="submenu-conte"><a href="ofertaEducativa/ofertaEducativa.html">Tecnico Superior Universitario</a></div>
+             </div>   
+               <div class="submenu">
+             <button class="dropbtn">Nosotros<i class="fa fa-caret-down"></i></button>
+                   <div class="submenu-conte">
+                       <a href="nosotros/historia.html">Historia</a>
+                       <a  href="nosotros/visionmision.html">Visión y Misión</a>
+                       <a  href="nosotros/mensaje.html">Mensaje del Rector</a>
+                       <a  href="nosotros/directorio.html">Directorio</a>
+                   </div>
+             </div>          
+             <a href="viculacion/vinculacion.html">Vinculación</a>
+        
+        <div class="submenu">
+             <button class="dropbtn">Alumnos<i class="fa fa-caret-down"></i></button>
+                   <div class="submenu-conte">
+                       <a  href="alumnos/adquisicion.html">Adquisición</a>
+                       <a  href="alumnos/proceso_de_inscripcion.html">Proceso de Inscripción</a>
+                       <a  href="alumnos/costo.html">Costo</a>
+                       <a  href="alumnos/guia_ceneval.html">Guía Ceneval</a>
+                       <a  href="alumnos/becas.html">Becas</a>
+                       <a  href="alumnos/titulacion.html">Titulación</a>
+                   </div>
+             </div> 
+             <div class="submenu">
+             <button class="dropbtn">Docentes<i class="fa fa-caret-down"></i></button>
+                   <div class="submenu-conte">
+                       <a href="docentes/informacion_docente.html">Información Docente</a>
+                   </div>
+             </div> 
+             <div class="submenu">
+             <button class="dropbtn">Transparencia<i class="fa fa-caret-down"></i></button>
+                   <div class="submenu-conte">
+                       <a  href="transparencia/transparencia_2020.html">Transparencia 2020</a>
+                       <a  href="transparencia/transparencia_2019.html">Transparencia 2019</a>
+                       <a  href="transparencia/sep_transparencia_2019.html">Sep-Transparencia 2019</a>
+                       <a  href="transparencia/CEVAC_sep.html">SEVAC Sep</a>
+                   </div>
+             </div> 
+             
+             <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+               
+    </nav>
+
+</div>
+        <br><br><br>
+        
+           
+         
+        <!--Carrucel slide-->
+         <!--esta es la seccion de la pagina-->    
+        <section id="call-action">
+          <div class="container"> 
+           <div class="row">
+            <div class="col-md-12">
+             <div class="card text-center">
+              <div class="card-body">
+                  <div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/entradavaca.jpeg" alt="" style="width: 100%; height: 400px;">
+    </div> 
+    <div class="carousel-item">
+      <img src="img/comunicado1.jpeg" alt="" style="width: 100%; height: 400px;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/WhatsApp%20Image%202020-04-24%20at%2012.26.30%20PM.jpeg" alt="" style="width: 100%; height: 400px;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/actualizado.jpeg" alt="" style="width: 100%; height: 400px;">
+    </div> 
+       
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </section>
+        
+        <br><br><br>
+        <!--seccion de las noticias-->
+        
+        <section id="blog">
+       <h2 class="text-center" style="color: #137338;">NOTICIAS</h2><br><br>
+         <div class="container">
+          <div class="row">
+		  
+	   
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/estudianteM.jpeg" alt="Card image cap" height="300px">
+               <div class="card-body">
+        <h5 class="card-title">Feliz día del estudiante.</h5>
+                   <div class="mb-1 text-muted">May 23</div>
+             <p class="card-text">El Día del Estudiante es un festejo singular, pues en este año los alumnos de todos los niveles educativos lo celebran tomando clases en línea, debido a la cuarentena de coronavirus Covid-19....</p>
+               
+               </div>
+            </div>
+          </div><br><br>
+              
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/aislamiento.jpg" alt="Card image cap" height="300px">
+               <div class="card-body">
+        <h5 class="card-title">Recomendaciones: Preparación del hogar y estadía prolongada de aislamiento domiciliario.</h5>
+                   <div class="mb-1 text-muted">May 23</div>
+             <p class="card-text">checa estas recomendaciones básicas durante este aislamiento voluntario...</p>
+               <a href="documentos/AislamientoDomiciliario.pdf" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+               </div>
+            </div>
+          </div><br><br>
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/tres-pasos.jpg" alt="Card image cap">
+               <div class="card-body">
+        <h5 class="card-title">Proceso de Preinscripción.</h5>
+                   <div class="mb-1 text-muted">May 01</div>
+             <p class="card-text">Checa el siguiente link para saber los pasos que tienes que realizar para preinscribirte e inscribirte a las carreras que ofrece nuestra Universidad...</p>
+               <a href="alumnos/proceso_de_inscripcion.html" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+               </div>
+            </div>
+          </div><br><br>
+         <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/facebook.jpg" alt="Card image cap">
+               <div class="card-body">
+        <h5 class="card-title">Visita nuestras redes sociales.</h5>
+                   <div class="mb-1 text-muted">May 01</div>
+             <p class="card-text">Tenemos nuestra página de Facebook, siguenos y tendrás información en nuestra Universidad...</p>
+               <a href="https://www.facebook.com/Utmezquital" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+               </div>
+            </div>
+          </div><br><br>      
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+        <div class="card">
+          <video height="250px" controls class="img-responsive">
+            <source src="video/WhatsApp%20Video%202020-04-29%20at%201.44.44%20PM.mp4" type="video/mp4">
+            </video>
+           <div class="card-body">
+              <h5 class="card-title">Declaración Patrimonial 2020</h5>
+               <div class="mb-1 text-muted">Abr 29</div>
+              <p class="card-text">Compartimos un video explicando el modo para realizar tu declaracion patrimonial en linea......</p>
+                
+            </div>
+           </div>
+          </div><br><br>  
+              
+           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/sergio-gonzalez-romero-coronavirus.jpg" alt="Card image cap">
+               <div class="card-body">
+        <h5 class="card-title">Informate del COVID-19 en Durango.</h5>
+                   <div class="mb-1 text-muted">Abr 24</div>
+             <p class="card-text">Checa la página, donde encontrarás información diaria del paso del virus por Durango...</p>
+               <a href="http://covid.durango.gob.mx/" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+               </div>
+            </div>
+          </div><br><br>
+              
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/covid_19_mx_app.jpg" alt="Card image cap">
+               <div class="card-body">
+        <h5 class="card-title">Descarga la app COVID-19MX.</h5>
+                   <div class="mb-1 text-muted">Abr 24</div>
+             <p class="card-text">Todos podemos hacer algo para mitigar y contener la expansión de las enfermedades. Lo primero siempre es entender qué son, cómo se transmiten y cómo afectan.<br>
+                 Descarga la aplicación ya disponible para Android y IOs...</p>
+               <a href="https://coronavirus.gob.mx/" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+               </div>
+            </div>
+          </div><br><br>
+              
+              <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/maxresdefault.jpg" alt="Card image cap">
+               <div class="card-body">
+        <h5 class="card-title">COVID-19 Materiales de consulta.</h5>
+                   <div class="mb-1 text-muted">Abr 24</div>
+             <p class="card-text">
+
+Información general sobre COVID-19.
+                 <br>En estos materiales encontrarás información sobre qué son los coronavirus, síntomas, origen del brote actual, tratamiento y medidas de prevención...</p>
+               <a href="https://www.gob.mx/salud/documentos/covid19" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+               </div>
+            </div>
+          </div><br><br>
+              
+           <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="card">
+              <img class="card-img-top" src="img/prevencion1.jpeg" alt="Card image cap">
+               <div class="card-body">
+        <h5 class="card-title">Consejos para esta Cuarentena.</h5>
+                   <div class="mb-1 text-muted">Abr 24</div>
+             <p class="card-text">La coordinación estatal de protección civil de Durango recomiendo estos secillos pasos...</p>
+               <a href="" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+               </div>
+            </div>
+          </div><br><br>
+              
+             <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+               <div class="card">
+                 <img class="card-img-top" src="img/prevencion2.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Consejos para esta Cuarentena.</h5>
+                      <div class="mb-1 text-muted">Abr 24</div>
+                    <p class="card-text">La coordinación estatal de protección civil de Durango recomiendo estos secillos pasos...</p>
+                      <a href="" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+                  </div>
+               </div>
+              </div><br><br>
+              
+     <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+      <div class="card">
+         <img class="card-img-top" src="img/WhatsApp%20Image%202020-04-24%20at%2012.28.48%20PM.jpeg" style="height: 400px" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Comunicado ante contingencia sanitaria COVID-19.</h5>
+            <div class="mb-1 text-muted">Abr 24</div>
+             <p class="card-text"></p>
+               <a href="" class="btn btn-primary" style="background-color:  #51ae30; border-color:  #51ae30;">Leer Más</a>
+        </div>
+       </div>
+     </div><br><br>
+                   
+              
+    
+              
+     
+              
+       
+       </div>
+    </div>
+</section><br><br><br>
+        
+
+        
+<div class="container"><nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
+    </div>
+
+<!-- footer -->
+    <footer id="pie">
+      <div class="container">
+        <div class="row">
+            <p>Copyright &copy; Universidad Tecnológica del Mezquital 2020 </p>
+          </div>
+        </div>
+    </footer>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu";
+  }
+}
+</script>
+
+    
+    
+   
+    </body>
+</html>
